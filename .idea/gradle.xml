@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="jbr-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/core" />
+            <option value="$PROJECT_DIR$/core/firebase" />
+            <option value="$PROJECT_DIR$/core/navigation" />
+            <option value="$PROJECT_DIR$/core/ui" />
+            <option value="$PROJECT_DIR$/data_api" />
+            <option value="$PROJECT_DIR$/data_impl" />
+            <option value="$PROJECT_DIR$/domain_models" />
+            <option value="$PROJECT_DIR$/features" />
+            <option value="$PROJECT_DIR$/features/admin_api" />
+            <option value="$PROJECT_DIR$/features/admin_impl" />
+            <option value="$PROJECT_DIR$/features/auth_api" />
+            <option value="$PROJECT_DIR$/features/auth_impl" />
+            <option value="$PROJECT_DIR$/features/booking_api" />
+            <option value="$PROJECT_DIR$/features/booking_impl" />
+            <option value="$PROJECT_DIR$/features/calendar_api" />
+            <option value="$PROJECT_DIR$/features/calendar_impl" />
+            <option value="$PROJECT_DIR$/features/master_api" />
+            <option value="$PROJECT_DIR$/features/master_impl" />
+            <option value="$PROJECT_DIR$/features/profile_api" />
+            <option value="$PROJECT_DIR$/features/profile_impl" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

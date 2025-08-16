@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="19">
+      <module name="Beauty_Salon_App.app" target="23" />
+      <module name="Beauty_Salon_App.auth" target="23" />
+      <module name="Beauty_Salon_App.data_api" target="23" />
+      <module name="Beauty_Salon_App.data_impl" target="23" />
+      <module name="Beauty_Salon_App.firebase" target="23" />
+      <module name="Beauty_Salon_App.navigation" target="23" />
+      <module name="Beauty_Salon_App.ui" target="23" />
+      <module name="BeautySalonApp.admin_api" target="21" />
+      <module name="BeautySalonApp.admin_impl" target="21" />
+      <module name="BeautySalonApp.auth" target="21" />
+      <module name="BeautySalonApp.auth_api" target="21" />
+      <module name="BeautySalonApp.auth_impl" target="21" />
+      <module name="BeautySalonApp.booking_api" target="21" />
+      <module name="BeautySalonApp.booking_impl" target="21" />
+      <module name="BeautySalonApp.calendar_api" target="21" />
+      <module name="BeautySalonApp.calendar_impl" target="21" />
+      <module name="BeautySalonApp.firebase" target="21" />
+      <module name="BeautySalonApp.master_api" target="21" />
+      <module name="BeautySalonApp.master_impl" target="21" />
+      <module name="BeautySalonApp.navigation" target="21" />
+      <module name="BeautySalonApp.profile_api" target="21" />
+      <module name="BeautySalonApp.profile_impl" target="21" />
+      <module name="BeautySalonApp.ui" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

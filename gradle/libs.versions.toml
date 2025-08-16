@@ -1,0 +1,108 @@
+[versions]
+
+# Android Configuration
+coilCompose = "2.4.0"
+compileSdk = "35"
+jsoup = "1.17.2"
+minSdk = "26"
+targetSdk = "35"
+versionCode = "1"
+versionName = "1.0"
+ksp = "2.1.20-2.0.0"
+
+# Core
+agp = "8.9.1"
+kotlin = "2.0.21"
+coreKtx = "1.16.0"
+appcompat = "1.7.1"
+material = "1.12.0"
+jetbrainsKotlinJvm = "2.0.21"
+
+# Testing
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+
+# AndroidX Lifecycle / Compose
+lifecycleRuntimeKtx = "2.9.1"
+activityCompose = "1.10.1"
+composeBom = "2024.09.00"
+
+# Dependency Injection
+dagger = "2.50"
+assistedInjectAnnotationsDagger2 = "0.8.1"
+javax-inject = "1"
+
+# Coroutines
+kotlinxCoroutinesAndroid = "1.7.3"
+
+# Navigation
+navigation-compose = "2.8.9"
+navigation-runtime-ktx = "2.8.9"
+
+# Firebase
+firebaseBom = "34.1.0"
+
+# Plugins
+gms = "4.4.3"
+
+[libraries]
+# Firebase (BOM first)
+firebase-bom         = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" } # Update all Firebase libs together
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth" }
+firebase-firestore-ktx   = { group = "com.google.firebase", name = "firebase-firestore" }
+firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage" }
+firebase-functions-ktx = { group = "com.google.firebase", name = "firebase-functions" }
+firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messaging" }
+firebase-analytics-ktx = { group = "com.google.firebase", name = "firebase-analytics" }
+
+# AndroidX Core & Lifecycle
+androidx-core-ktx               = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat              = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-lifecycle-runtime-ktx  = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose       = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+
+# Jetpack Compose
+androidx-compose-bom            = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui                     = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics            = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling             = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview     = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest       = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4         = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3              = { group = "androidx.compose.material3", name = "material3" }
+
+# Coroutines
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesAndroid" }
+
+# Dependency Injection
+dagger = { group = "com.google.dagger", name = "dagger-android", version.ref = "dagger" }
+dagger-compiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger" }
+assisted-inject-annotations-dagger2 = { module = "com.squareup.inject:assisted-inject-annotations-dagger2", version.ref = "assistedInjectAnnotationsDagger2" }
+assisted-inject-processor-dagger2 = { module = "com.squareup.inject:assisted-inject-processor-dagger2", version.ref = "assistedInjectAnnotationsDagger2" }
+javax-inject = { group = "javax.inject", name = "javax.inject", version = "1" }
+
+# Navigation
+navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
+androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigation-runtime-ktx" }
+
+
+# Material Design
+material                        = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# Testing
+junit                           = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit                  = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core          = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+android-library     = { id = "com.android.library", version.ref = "agp" }
+kotlin-android      = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-compose      = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "jetbrainsKotlinJvm" }
+gms                 = { id = "com.google.gms.google-services", version.ref = "gms" }
+ksp                 = { id = "com.google.devtools.ksp",  version.ref = "ksp" }
+
+
