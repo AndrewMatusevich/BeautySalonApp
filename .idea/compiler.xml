@@ -18,6 +18,7 @@
       <module name="BeautySalonApp.booking_impl" target="21" />
       <module name="BeautySalonApp.calendar_api" target="21" />
       <module name="BeautySalonApp.calendar_impl" target="21" />
+      <module name="BeautySalonApp.features.user" target="21" />
       <module name="BeautySalonApp.firebase" target="21" />
       <module name="BeautySalonApp.master_api" target="21" />
       <module name="BeautySalonApp.master_impl" target="21" />

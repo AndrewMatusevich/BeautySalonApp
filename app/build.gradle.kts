@@ -58,6 +58,8 @@ dependencies {
     implementation(project(":features:booking_impl"))
     implementation(project(":features:calendar_api"))
     implementation(project(":features:calendar_impl"))
+    implementation(project(":features:client_api"))
+    implementation(project(":features:client_impl"))
     implementation(project(":features:master_api"))
     implementation(project(":features:master_impl"))
     implementation(project(":features:admin_api"))
@@ -69,11 +71,11 @@ dependencies {
     // --- Firebase ---
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.auth.ktx)
-    implementation(libs.firebase.firestore.ktx)
-    implementation(libs.firebase.storage.ktx)
-    implementation(libs.firebase.functions.ktx)
-    implementation(libs.firebase.messaging.ktx)
-    implementation(libs.firebase.analytics.ktx)
+    implementation(libs.firebase.firestore)
+    implementation(libs.firebase.storage)
+    implementation(libs.firebase.functions)
+    implementation(libs.firebase.messaging)
+    implementation(libs.firebase.analytics)
 
     // --- AndroidX Core & Lifecycle ---
     implementation(libs.androidx.core.ktx)

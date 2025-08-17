@@ -5,6 +5,7 @@ import com.example.beautysalon.features.admin_impl.di.AdminFeatureDeps
 import com.example.beautysalon.features.auth_impl.di.AuthFeatureDeps
 import com.example.beautysalon.features.booking_impl.di.BookingFeatureDeps
 import com.example.beautysalon.features.calendar_impl.di.CalendarFeatureDeps
+import com.example.beautysalon.features.client_impl.di.ClientFeatureDeps
 import com.example.beautysalon.features.master_impl.di.MasterFeatureDeps
 import com.example.beautysalon.features.profile_impl.di.ProfileFeatureDeps
 import dagger.BindsInstance
@@ -22,6 +23,7 @@ interface AppComponent : AdminFeatureDeps,
                         AuthFeatureDeps,
                         BookingFeatureDeps,
                         CalendarFeatureDeps,
+                        ClientFeatureDeps,
                         MasterFeatureDeps,
                         ProfileFeatureDeps {
 

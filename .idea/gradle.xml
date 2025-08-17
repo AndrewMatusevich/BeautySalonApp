@@ -27,6 +27,8 @@
             <option value="$PROJECT_DIR$/features/booking_impl" />
             <option value="$PROJECT_DIR$/features/calendar_api" />
             <option value="$PROJECT_DIR$/features/calendar_impl" />
+            <option value="$PROJECT_DIR$/features/client_api" />
+            <option value="$PROJECT_DIR$/features/client_impl" />
             <option value="$PROJECT_DIR$/features/master_api" />
             <option value="$PROJECT_DIR$/features/master_impl" />
             <option value="$PROJECT_DIR$/features/profile_api" />

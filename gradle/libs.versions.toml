@@ -27,6 +27,7 @@ espressoCore = "3.6.1"
 lifecycleRuntimeKtx = "2.9.1"
 activityCompose = "1.10.1"
 composeBom = "2024.09.00"
+viewmodel-compose = "2.9.2"
 
 # Dependency Injection
 dagger = "2.50"
@@ -50,17 +51,20 @@ gms = "4.4.3"
 # Firebase (BOM first)
 firebase-bom         = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" } # Update all Firebase libs together
 firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth" }
-firebase-firestore-ktx   = { group = "com.google.firebase", name = "firebase-firestore" }
-firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage" }
-firebase-functions-ktx = { group = "com.google.firebase", name = "firebase-functions" }
-firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messaging" }
-firebase-analytics-ktx = { group = "com.google.firebase", name = "firebase-analytics" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage" }
+firebase-functions = { group = "com.google.firebase", name = "firebase-functions" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging" }
+firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
 
 # AndroidX Core & Lifecycle
 androidx-core-ktx               = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 androidx-appcompat              = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 androidx-lifecycle-runtime-ktx  = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
 androidx-activity-compose       = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx" }
+lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "viewmodel-compose" }
+
 
 # Jetpack Compose
 androidx-compose-bom            = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }

@@ -45,9 +45,9 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.ktx)
 
     // Jetpack Compose
-    implementation(libs.androidx.ui.tooling)
-    debugImplementation(libs.androidx.ui.test.manifest)
-    debugImplementation(libs.androidx.ui.tooling)
+  //  implementation(libs.androidx.ui.tooling)
+  //  debugImplementation(libs.androidx.ui.test.manifest)
+  //  debugImplementation(libs.androidx.ui.tooling)
 
     // Testing
     testImplementation(libs.junit)
