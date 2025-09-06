@@ -47,6 +47,8 @@ dependencies {
     implementation(project(":data_api"))
     implementation(project(":data_impl"))
     implementation(project(":domain_models"))
+    implementation(project(":domain_api"))
+    implementation(project(":domain_impl"))
     implementation(project(":core:ui"))
     implementation(project(":core:navigation"))
     implementation(project(":core:firebase"))

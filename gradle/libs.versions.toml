@@ -44,6 +44,10 @@ navigation-runtime-ktx = "2.8.9"
 # Firebase
 firebaseBom = "34.1.0"
 
+# Encrypted DataStore
+datastorePreferences = "1.1.7"
+securityCrypto = "1.1.0"
+
 # Plugins
 gms = "4.4.3"
 
@@ -64,7 +68,6 @@ androidx-lifecycle-runtime-ktx  = { group = "androidx.lifecycle", name = "lifecy
 androidx-activity-compose       = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
 lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx" }
 lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "viewmodel-compose" }
-
 
 # Jetpack Compose
 androidx-compose-bom            = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
@@ -91,9 +94,12 @@ javax-inject = { group = "javax.inject", name = "javax.inject", version = "1" }
 navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation-compose" }
 androidx-navigation-runtime-ktx = { group = "androidx.navigation", name = "navigation-runtime-ktx", version.ref = "navigation-runtime-ktx" }
 
-
 # Material Design
-material                        = { group = "com.google.android.material", name = "material", version.ref = "material" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# Encrypted DataStore
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
 
 # Testing
 junit                           = { group = "junit", name = "junit", version.ref = "junit" }

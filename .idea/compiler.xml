@@ -22,6 +22,7 @@
       <module name="BeautySalonApp.firebase" target="21" />
       <module name="BeautySalonApp.master_api" target="21" />
       <module name="BeautySalonApp.master_impl" target="21" />
+      <module name="BeautySalonApp.mylibrary" target="21" />
       <module name="BeautySalonApp.navigation" target="21" />
       <module name="BeautySalonApp.profile_api" target="21" />
       <module name="BeautySalonApp.profile_impl" target="21" />

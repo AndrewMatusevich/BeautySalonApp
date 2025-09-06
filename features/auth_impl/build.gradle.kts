@@ -3,7 +3,6 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
-    id("kotlin-kapt")
 }
 
 android {
@@ -39,8 +38,13 @@ dependencies {
 
     // --- Modules ---
     implementation(project(":domain_models"))
+    implementation(project(":data_api"))
+    implementation(project(":data_impl"))
+    //implementation(project(":domain_api"))
+    implementation(project(":domain_impl"))
     implementation(project(":core:ui"))
     implementation(project(":core:navigation"))
+    implementation(project(":features:auth_api"))
 
     // --- Firebase ---
     implementation(platform(libs.firebase.bom))

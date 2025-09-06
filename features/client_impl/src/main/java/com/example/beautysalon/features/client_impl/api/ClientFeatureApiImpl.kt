@@ -9,7 +9,7 @@ import com.example.beautysalon.features.client_impl.presentation.ClientScreen
 
 class ClientFeatureApiImpl @Inject constructor(): ClientFeatureApi {
 
-    override val route: String = "Client"
+    override val route: String = "clientRole"
     override fun registerDestination(navGraphBuilder: NavGraphBuilder) {
         navGraphBuilder.composable(route = route) {
             ClientScreen()

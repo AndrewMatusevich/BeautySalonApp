@@ -3,7 +3,6 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.ksp)
-    id("kotlin-kapt")
 }
 
 android {
@@ -41,6 +40,7 @@ dependencies {
     implementation(project(":domain_models"))
     implementation(project(":core:ui"))
     implementation(project(":core:navigation"))
+    implementation(project(":features:calendar_api"))
 
     // Core AndroidX Libraries
     implementation(libs.androidx.core.ktx)

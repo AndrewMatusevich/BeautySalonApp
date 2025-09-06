@@ -8,6 +8,7 @@ import com.example.beautysalon.features.calendar_impl.di.CalendarFeatureDepsProv
 import com.example.beautysalon.features.client_impl.di.ClientFeatureDepsProvider
 import com.example.beautysalon.features.master_impl.di.MasterFeatureDepsProvider
 import com.example.beautysalon.features.profile_impl.di.ProfileFeatureDepsProvider
+import com.example.beautysalonapp.di.AppDiProvider
 import com.example.beautysalonapp.di.DaggerAppComponent
 import com.google.firebase.FirebaseApp
 
@@ -15,8 +16,8 @@ class App: Application() {
 
     override fun onCreate() {
         super.onCreate()
-        FirebaseApp.initializeApp(this)
         initDagger()
+        FirebaseApp.initializeApp(this)
     }
 
     private fun initDagger() {
@@ -24,6 +25,8 @@ class App: Application() {
         val appComponent = DaggerAppComponent.builder()
             .addContext(this)
             .build()
+
+        AppDiProvider.appComponent = appComponent
 
         AdminFeatureDepsProvider.deps = appComponent
         AuthFeatureDepsProvider.deps = appComponent

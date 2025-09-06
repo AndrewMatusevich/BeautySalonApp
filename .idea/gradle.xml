@@ -17,6 +17,8 @@
             <option value="$PROJECT_DIR$/core/ui" />
             <option value="$PROJECT_DIR$/data_api" />
             <option value="$PROJECT_DIR$/data_impl" />
+            <option value="$PROJECT_DIR$/domain_api" />
+            <option value="$PROJECT_DIR$/domain_impl" />
             <option value="$PROJECT_DIR$/domain_models" />
             <option value="$PROJECT_DIR$/features" />
             <option value="$PROJECT_DIR$/features/admin_api" />
